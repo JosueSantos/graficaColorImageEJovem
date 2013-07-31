@@ -69,6 +69,7 @@
 			<div id="conteudo" class="grid_12">
 
 				<h1>Francisco Paulo Ferreira Gomes</h1>				
+				<h1>Josué Marques</h1>				
 
 				<div id="cont" class="grid_10 prefix_1">
 					<p class="titprin">Quem somos</p>
