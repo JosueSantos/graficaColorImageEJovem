@@ -5,6 +5,12 @@
 	<div id="cont" class="grid_10 prefix_1">
 		<p class="titprin">Sessão Administrativa</p>
 			
+		<?php 
+		
+		$pessoa= new pessoa();
+		$pessoa->listarUsuarios();
+		
+		?>
 			
 		</div>
 </div>

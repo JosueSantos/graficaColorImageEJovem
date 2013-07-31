@@ -1,6 +1,9 @@
 <?php
 session_start();
 
+//error_reporting(E_WARNING);
+//ini_set(“display_errors”, 1 );
+
 if(!isset($_SESSION['usuarios'])){
 	$_SESSION['usuarios'] = array();
 }
@@ -67,6 +70,19 @@ class pessoa{
 				header('Location: quemsomos.php');
 			}
 		}
+	}
+	
+	function listarUsuarios(){
+		for($i = 0; $i < count($_SESSION['usuarios']); $i++){
+			echo '--------- Usuário: '.$i.' -------------<br />';
+			echo "Nome--> ".$_SESSION['usuarios'][$i]['nome']."<br/>";
+			echo "Dat.N.--> ".$_SESSION['usuarios'][$i]['dat']."<br />";
+			echo "E-mail--> ".$_SESSION['usuarios'][$i]['email']."<br />";
+			echo "T.Cont--> ".$_SESSION['usuarios'][$i]['conta']."<br />";
+			echo "User--> ".$_SESSION['usuarios'][$i]['user']."<br />";
+			echo "Snh--> ".$_SESSION['usuarios'][$i]['senha']."<br />";
+		}
+	
 	}
 }
 
