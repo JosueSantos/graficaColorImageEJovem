@@ -1,0 +1,185 @@
+body{
+	background-image: url(../img/background.jpg);
+	text-align:justify;
+}
+
+div{
+	margin-top:5px;
+	border-radius:15px;
+}
+
+a {
+  color:black;
+  text-decoration:none;
+}
+
+p{
+	text-indent:40px;
+	font-size:20px;
+}
+
+.titprin{
+	text-indent:0px;
+	font-size:35px;
+	text-align:center;
+	border-top-right-radius:50px;
+	border-top-left-radius:50px;
+	background-color:blue;
+	margin-bottom:5px;
+	text-shadow:2px 2px 2px black;
+	color:lightblue;
+	font-weight:bolder;
+}
+
+p.titulo{
+	text-indent:0px;
+	font-size:25px;
+	text-align:center;
+	border-top-right-radius:50px;
+	border-top-left-radius:50px;
+	background-color:blue;
+	margin-top:15px;
+	margin-bottom:5px;
+	text-shadow:2px 2px 2px lightblue;
+	font-weight:bolder;
+}
+
+p.destaque{
+	text-indent:0px;
+	text-align:center;
+	font-style:italic;
+	font-weight:bolder;
+}
+
+p.tituloc{
+	text-indent:0px;
+	font-size:20px;
+	text-shadow:2px 2px 2px black;
+	color:lightblue;
+	font-weight:bolder;
+}
+
+font.eutit{
+	text-indent:0px;
+	font-size:18px;
+	font-weight:bolder;
+	text-shadow:2px 2px 2px lightblue;
+}
+
+p.eu{
+	text-indent:0px;
+	font-size:13px;
+}
+
+h3.cadastrar{
+	font-size:25px;
+	text-align:center;
+}
+
+font.a{
+	font-size:22px;
+}
+
+font.b{
+	font-size:17px;
+}
+
+font.c{
+	font-size:15px;
+}
+
+/****Formato do Site****/
+#banner{
+	height:250px;
+}
+
+#caixaA{
+	height:250px;
+	background-image: url(../img/caixaIII.jpg);
+	box-shadow:6px 6px 6px black;
+}
+
+#menu{
+	border-radius:5px;
+	background-image: url(../img/caixaI.jpg);
+	box-shadow:3px 3px 3px black;
+}
+
+#menu:hover{
+	background-image: url(../img/menu.png);
+	box-shadow:3px 3px 3px blue;
+}
+
+#menulog{
+	text-shadow:2px 2px 2px lightblue;
+	font-size:22px;
+	height:35px;
+	border-radius:5px;
+	background-image: url(../img/menu.png);
+	box-shadow:3px 3px 3px black;
+}
+
+#tabs{
+	margin-top:-255px;
+	float:right;
+}
+
+#conteudo{
+	height:900px;
+	background-image: url(../img/conteudo.png);
+	box-shadow:6px 6px 6px black;
+	overflow:scroll;
+}
+
+#conteudoerro{
+	height:900px;
+	background-image: url(../img/conteudo.png);
+	box-shadow:6px 6px 6px black;
+}
+
+#caixaB{
+	margin-top:-680px;
+	height:350px;
+	background-image: url(../img/caixaII.jpg);
+	box-shadow:6px 6px 6px black;
+}
+
+#caixaC{
+	margin-top:-320px;
+	height:155px;
+	background-image: url(../img/caixaI.jpg);
+	box-shadow:6px 6px 6px black;
+}
+
+#caixaD{
+	margin-top:-155px;
+	height:155px;
+	background-image: url(../img/caixaI.jpg);
+	box-shadow:6px 6px 6px black;
+}
+
+#caixaD img:hover{
+-webkit-transform: matrix(1, -0.2, 0, 1, 0, 0);
+-o-transform: matrix(1, -0.2, 0, 1, 0, 0);
+transform: matrix(1, -0.2, 0, 1, 0, 0);
+}
+
+#rodape{
+	height:125px;
+	background-image: url(../img/Rodape.png);
+	margin-bottom:10px;
+}
+
+.center{
+	text-align: center;
+}
+
+#voltar{
+	border-radius:50px;
+	text-align:center;
+	height:30px;
+	background-image: url(../img/menu.png);
+	box-shadow:6px 6px 6px black;
+	font-weight:bolder;
+	text-shadow:2px 2px 2px lightblue;
+}
