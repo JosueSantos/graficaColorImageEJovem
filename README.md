@@ -1,4 +1,11 @@
 josueweb.net76.net
 ==================
 
-site do curso
+Atividade do curso E-Jovem 2011
+Módulo 2
+# Josué.Santos
+
+Desenvolvido com :
+* PHP
+* JQuery
+* Dados em arquivo .txt
