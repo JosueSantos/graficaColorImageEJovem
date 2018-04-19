@@ -1,7 +1,4 @@
-josueweb.net76.net
-==================
-
-Atividade do curso E-Jovem 2011
+# Atividade do curso E-Jovem 2011
 Módulo 2
 # Josué.Santos
 
