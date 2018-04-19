@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php 
 	include_once 'classe/pessoa.php';
 	$pessoa= new pessoa();
@@ -177,118 +176,6 @@
 <!------------INICIO DOS PRODUTOS------------>
 			<div id="caixaB" class="grid_4 center" >
 				<p class="tituloc">Principais Produtos</p>
-=======
-<!DOCTYPE html>
-<html>
-	<head>
-		
-		<meta charset="utf-8" />
-		<title>Gráfica Color Image&mdash;Quem Somos</title>
-		<link rel="stylesheet" href="css/960.css"  type="text/css" />
-		<link rel="stylesheet" href="css/reset.css"  type="text/css" />
-		<link rel="stylesheet" href="css/estilo.css"  type="text/css" />
-		
-	</head>	
-	<body>
-		
-		<div class="container_16">
-			
-			<div id="banner" class="grid_16"></div>
-			
-			<!------------INÍCIO DO LOGIN------------>
-			<div id="caixaA" class="grid_4">
-				<form action="php/ProLog.php" method="post">
-					<table>
-						
-						<tr>
-							<td colspan="2">
-								<br>
-								&nbsp;&nbsp;&nbsp;&nbsp;
-								<img alt="Login" src="img/login.png" width="150px" height="60px">
-								<br><br>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img alt="Usuário" src="img/usuario.png">
-							</td>
-							<td>
-								<input type="text" name="usuario" class="grid_3">
-								<br><br>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img alt="Senha" src="img/senha.png">
-							</td>
-							<td>
-								<input type="password" name="senha" class="grid_3">
-								<br><br>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2">
-								<input type="submit" value="Entrar">
-								&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="php/cadastro.php">Cadastrar</a>
-							</td>
-						</tr>
-					
-					</table>
-				</form>
-			</div>
-			<!------------FIM DO LOGIN------------>
-			
-			<!------------INÍCIO DO MENU------------>
-			<div id="menu" class="grid_12">
-				Para ter acesso ao site, por favor faça o login.
-			</div>
-			<!------------FIM DO MENU------------>
-			
-			<!------------INÍCIO DO CONTEÚDO------------>
-			<div id="conteudo" class="grid_12">
-				<div id="cont" class="grid_10 prefix_1">
-					<p class="titprin">Quem somos</p>
-					<p>
-						Somos uma empresa atuante no ramo de criação e edição de impressões gráficas, da pré-impressão ao acabamento.
-					<p>
-						Em contínuo processo de aperfeiçoamento tecnico e produtivo, utilizando materias primas de primeira qualidade e uma equipe especializada. Estamos voltados para a edição e produção de impressos.
-					<p class="titulo">Nossa Missão</p>
-					<p class="destaque">
-						"Manter relacionamento duradouro com nossos clientes, agregando valor a seus negócios."
-					</p>
-					<p class="titulo">Nosso Diferencial</p>
-					<ul style="list-style:square;">
-						<li>Atendimento Personalizado;
-						<li>Compromisso com Prazo e Qualidade;
-						<li>Equipe Qualificada;
-						<li>Facilidade de Pagamento.
-					</ul>
-					<p class="destaque">
-						Venha nos conhecer e deixe a Gráfica Color Image surpreendê-lo!
-					</p>
-					<p class="titulo">Nosso Endereço</p>
-					<p class="destaque">
-						Rua Rio Araquaia, 1550
-						<br>
-						Jardim Iracema, CEP:60 340-000
-						<br>				
-						Fortaleza -CE
-						<br>
-						Tel: (85)8888-0000
-						<br>
-						E-Mail: graficacolorimage@gmail.com
-					</p>
-				</div>
-			</div>
-			<!------------FIM DO CONTEÚDO------------>
-			
-			<!------------INÍCIO DE PRODUTOS------------>
-			<div id="caixaB" class="grid_4 center" >
-				<br>
-				<p class="tituloc">Principais Produtos</p>
-				<br>
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 				<p class="destaque">
 					Cartão de Visita
 					<br>
@@ -309,18 +196,10 @@
 					Envelopes
 				</p>
 			</div>
-<<<<<<< HEAD
 <!------------FIM DOS PRODUTOS------------>
 				
 <!------------INICIO DA CAIXA AUTOR------------>
 			<div id="caixaC" class="grid_4 center">
-=======
-			<!------------FIM DE PRODUTOS------------>
-			
-			<!------------INÍCIO DA CAIXA AUTOR------------>
-			<div id="caixaC" class="grid_4 center">
-				<br>
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 				<p class="eu">
 					<font class="eutit">Desenvolvido por:</font>
 					<br>
@@ -335,7 +214,6 @@
 					&copy;2013 JS .LDTA
 				</p>
 			</div>
-<<<<<<< HEAD
 <!------------FIM DA CAIXA AUTOR------------>
 				
 <!------------INÍCIO DAS REDES SOCIAIS------------>
@@ -351,24 +229,6 @@
 <!------------FIM DAS REDES SOCIAIS------------>
 					
 <!------------INÍCIO DO RODAPÉ------------>
-=======
-			<!------------FIM DA CAIXA AUTOR------------>
-			
-			<!------------INÍCIO DAS REDES SOCIAIS------------>
-			<div id="caixaD" class="grid_4 center">
-					<br>
-					<p class="tituloc">Fique por Dentro</p>
-					<a href="https://www.facebook.com/" target="_blank">
-						<img src="img/face.png" width="80px" height="80px" alt="Facebook">
-					</a>
-					<a href="http://mail.google.com/" target="_blank">
-						<img src="img/e-mail.png" width="80px" height="80px" alt="E-Mail">
-					</a>
-			</div>
-			<!------------FIM DAS REDES SOCIAIS------------>
-			
-			<!------------INÍCIO DO RODAPÉ------------>
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 			<div id="rodape" class="grid_16 center">
 				<br><br>
 				<table>
@@ -398,16 +258,8 @@
 					</tr>
 				</table>
 			</div>
-<<<<<<< HEAD
 			
 		</div>
 	
 	</body>
-=======
-			<!------------FIM DO RODAPÉ------------>
-			
-		</div>
-		
-	</body>	
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 </html>

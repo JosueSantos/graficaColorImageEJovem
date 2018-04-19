@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 include_once "superclasse.php";
 
 session_start();
@@ -8,23 +7,10 @@ error_reporting(E_WARNING);
 ini_set(“display_errors”, 1 );
 
 class pessoa extends superclasse{
-=======
-session_start();
-
-//error_reporting(E_WARNING);
-//ini_set(“display_errors”, 1 );
-
-if(!isset($_SESSION['usuarios'])){
-	$_SESSION['usuarios'] = array();
-}
-
-class pessoa{
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 	public $nome;
 	public $dat;
 	public $email;
 	public $conta;
-<<<<<<< HEAD
 	public $mennome;
 	public $menemail;
 	public $assunto;
@@ -68,25 +54,6 @@ class pessoa{
 				}
 			}
 		}
-=======
-	private $user;
-	private $senha;
-	
-	function setuser($user){
-		$this->user = $user;
-	}
-	
-	function getuser(){
-		return $this->user;
-	}
-	
-	function setsenha($senha){
-		$this->senha = $senha;
-	}
-	
-	function getsenha(){
-		return $this->senha;
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 	}
 	
 	function logar($login,$senha){
@@ -105,7 +72,6 @@ class pessoa{
 				'dat'	=>	$this->dat,
 				'email'	=>	$this->email,
 				'conta'	=>	$this->conta,
-<<<<<<< HEAD
 				'user'	=>	$this->getuser(),
 				'senha'	=>	$this->getsenha()
 		);
@@ -115,17 +81,10 @@ class pessoa{
 		$a = fopen("../arquivo/Arquivo.txt","w");
 		$texto = serialize($_SESSION['usuarios']);
 		fwrite($a,$texto);
-=======
-				'user'	=>	$this->user,
-				'senha'	=>	$this->senha
-		);
-		array_push($_SESSION['usuarios'], $usuario);
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 	}
 
 	function sair(){
 		unset($_SESSION['usuarioLogado']);
-<<<<<<< HEAD
 		unset($_SESSION['cad']);
 		
 		unlink("../arquivo/Arquivo.txt");
@@ -139,34 +98,20 @@ class pessoa{
 	function editar($u){
 		for($i = 0; $i < count($_SESSION['usuarios']); $i++){
 			if($_SESSION['usuarios'][$i]['user'] == $this->getuser()){
-=======
-		header('Location: ../index.php');
-	}
-	
-	function editar(){
-		for($i = 0; $i < count($_SESSION['usuarios']); $i++){
-			if($_SESSION['usuarios'][$i]['user'] == $this->user){
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 				$_SESSION['usuarios'][$i]['nome'] = $this->nome;
 				$_SESSION['usuarios'][$i]['dat'] = $this->dat;
 				$_SESSION['usuarios'][$i]['email'] = $this->email;
 				$_SESSION['usuarios'][$i]['conta'] = $this->conta;
-<<<<<<< HEAD
 				$_SESSION['usuarios'][$i]['user'] = $u;
 				$_SESSION['usuarios'][$i]['senha'] = $this->getsenha();
 				$_SESSION['usuarioLogado'] = $_SESSION['usuarios'][$i];
 				header('Location: ../index.php');
-=======
-				$_SESSION['usuarioLogado'] = $_SESSION['usuarios'][$i];
-				header('Location: quemsomos.php');
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 			}
 		}
 	}
 	
 	function listarUsuarios(){
 		for($i = 0; $i < count($_SESSION['usuarios']); $i++){
-<<<<<<< HEAD
 			if($_SESSION['usuarios'][$i]['nome']!= ''){
 				echo '--------- Usuário: '.$i.' -------------<br />';
 				echo "Nome--> ".$_SESSION['usuarios'][$i]['nome']."<br/>";
@@ -215,18 +160,6 @@ class pessoa{
 		fwrite($a,$texto);
 		
 	}
-=======
-			echo '--------- Usuário: '.$i.' -------------<br />';
-			echo "Nome--> ".$_SESSION['usuarios'][$i]['nome']."<br/>";
-			echo "Dat.N.--> ".$_SESSION['usuarios'][$i]['dat']."<br />";
-			echo "E-mail--> ".$_SESSION['usuarios'][$i]['email']."<br />";
-			echo "T.Cont--> ".$_SESSION['usuarios'][$i]['conta']."<br />";
-			echo "User--> ".$_SESSION['usuarios'][$i]['user']."<br />";
-			echo "Snh--> ".$_SESSION['usuarios'][$i]['senha']."<br />";
-		}
-	
-	}
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 }
 
 ?>

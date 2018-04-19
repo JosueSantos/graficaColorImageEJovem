@@ -4,21 +4,10 @@ body{
 }
 
 div{
-<<<<<<< HEAD
 	margin-top:5px;
 	border-radius:15px;
 }
 
-=======
-	margin-top:10px;
-	border-radius:15px;
-}
-
-#cont{
-	margin-top:25px;
-} 
-
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 a {
   color:black;
   text-decoration:none;
@@ -29,11 +18,7 @@ p{
 	font-size:20px;
 }
 
-<<<<<<< HEAD
 .titprin{
-=======
-p.titprin{
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 	text-indent:0px;
 	font-size:35px;
 	text-align:center;
@@ -67,14 +52,8 @@ p.destaque{
 }
 
 p.tituloc{
-<<<<<<< HEAD
 	text-indent:0px;
 	font-size:20px;
-=======
-	text-align:center;
-	text-indent:0px;
-	font-size:25px;
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 	text-shadow:2px 2px 2px black;
 	color:lightblue;
 	font-weight:bolder;
@@ -112,10 +91,6 @@ font.c{
 /****Formato do Site****/
 #banner{
 	height:250px;
-<<<<<<< HEAD
-=======
-	background-image: url(../img/banner.png);
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 }
 
 #caixaA{
@@ -125,7 +100,6 @@ font.c{
 }
 
 #menu{
-<<<<<<< HEAD
 	border-radius:5px;
 	background-image: url(../img/caixaI.jpg);
 	box-shadow:3px 3px 3px black;
@@ -158,63 +132,6 @@ font.c{
 }
 
 #conteudoerro{
-=======
-	border-top-left-radius:50px;
-	border-bottom-left-radius:0px;
-	text-align:center;
-	height:30px;
-	background-image: url(../img/menu.png);
-	box-shadow:6px 6px 6px black;
-	font-weight:bolder;
-	text-shadow:2px 2px 2px lightblue;
-}
-
-#menu0{
-	margin-top:0px;
-}
-
-#menu1{
-	margin-top:8px;
-	font-size:15px;
-	height:20px;
-}
-
-#menu1:hover{
-	margin-top:0px;
-	font-size:20px;
-	height:25px;
-}
-
-#menu1 ul{
-	padding:0px;
-	margin-top:0px;
-	margin-left:15px;
-	width:130px;
-	list-style:none;
-	position:absolute;
-	display:none;
-}
-
-#menu1:hover ul{
-	display:block;
-}
-
-#menu ul li{
-	font-size:15px;
-	border-radius:15px;
-	background-image: url(../img/caixaI.jpg);
-	margin-top:0px;
-	box-shadow:6px 6px 6px black;
-}
-
-#menu ul li:hover{
-	font-size:15px;
-	background-image: url(../img/menu.png);
-	box-shadow:6px 6px 6px blue;
-}
-
-#conteudo{
->>>>>>> 5842e4e57da058c0e122da2cfe1ff94fa836e527
 	height:900px;
 	background-image: url(../img/conteudo.png);
 	box-shadow:6px 6px 6px black;
